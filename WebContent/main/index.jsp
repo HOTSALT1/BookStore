@@ -1,14 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <style type="text/css">	
 	/* banner */
-	.banner {position: relative; width: 1200px; height: 750px; top: 70px;  margin:0 auto; padding:0; overflow: hidden;}
+	.banner {position: relative; width: 1200px; height: 650px;   margin:0 auto; padding:0; overflow: hidden; }
 	.banner ul {position: absolute; margin: 0px; padding:0; list-style: none; }
-	.banner ul li {float: left; width: 1200px; height: 750px; margin:0; padding:0;}
+	.banner ul li {float: left; width: 1200px; height: 650px; margin:0; padding:0;}
 
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -49,20 +50,7 @@
 </head>
 <link rel="stylesheet" type="text/css" href="../css/index.css">
 <body>
-	<nav class="navbar" style="width: 1210px; text-align: center;">
-		<ul class="navbar-menu" style="display: inline-block; float: left">
-			<li class="navbar-left"><a href="#">☰</a></li>
-			<li class="navbar-left"><a href="#">자유게시판</a></li>
-			<li class="navbar-left"><a href="#">알림마당</a></li>
-			<li class="navbar-left"><a href="#">소개</a></li>  
-		</ul>
-		<ul class="navbar-menu" style="display: inline-block; float: right;">
-			<li class="navbar-right"><a href="#">회원가입</a></li>
-			<li class="navbar-right"><a href="#">로그인</a></li>
-			<li class="navbar-right"><a href="#">장바구니</a></li> 
-		</ul>
-	</nav>
-
+	<jsp:include page="../template/navbar.jsp"/>
 	<div class="contents">
 		<div class="banner">
 			<ul>
@@ -73,14 +61,12 @@
 		</div>
 	</div>
 	<div style="text-align: center">
-		<img src="../img/sun.png">
+		<img src="../img/sun.png"style="margin-top:30px;">
 	</div>
-	<ul style="width: 100%;text-align: center; margin-top: 28px; padding: 0;">
+	<ul style="width: 100%;text-align: center; margin-top: 15px; padding: 0;">
 		<li class="li1"><img src="../img/indeximg1.png" style="width: 390px; "><a href="#"></a></li>
 		<li class="li1"><img src="../img/indeximg1.png" style="width: 390px;"><a href="#"></a></li>
 		<li class="li1"><img src="../img/indeximg1.png" style="width: 390px;"><a href="#"></a></li>
 	</ul>
-
-
 </body>
 </html>
