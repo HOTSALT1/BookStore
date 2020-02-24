@@ -7,8 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-test를 바꿨음 - 원중
-나현이 - 뒤진다 니가 디자인해 
-김현식
+<div style="width: 500px; height: 500px; background-color: black;">
+<div style="width: 200px; height: 200px; background-color:red; "></div>
+<div style="width: 150px; height: 150px; background-color:blue; "></div>
+<div style="width: 100px; height: 100px; background-color:green; "></div>
+</div>
+
 </body>
 </html>
