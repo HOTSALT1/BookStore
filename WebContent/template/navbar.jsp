@@ -32,7 +32,6 @@
                     <li><a href="#" style="padding-right:15px;">☰</a>
                     	<ul>
                     		<li><a href="#">소설</a></li></br>
-                    		<li><a href="#">수정2</a></li></br>
                     		<li><a href="#">문학</a></li></br>
                     		<li><a href="#">시</a></li></br>
                     		<li><a href="#">종교</a></li></br>
