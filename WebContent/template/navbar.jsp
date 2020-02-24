@@ -43,7 +43,7 @@
 							<li><a href="#link" >인문</a></li></br>
 							<li><a href="#link" >예술/대중문화</a></li></br>
 							<li><a href="#link" >컴퓨터</a></li></br>
-							<li><a href="#link" >기타</a></li></br>
+							<li><a href="#link" >기타</a></li></br> 
                     	</ul>
                     </li>
                     <li><a href="#" style="padding-right:15px;">신간</a></li>
