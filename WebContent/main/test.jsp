@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>나현이 테스트</title>
 </head>
 <body>
 <div style="width: 500px; height: 500px; background-color: black;">
