@@ -24,8 +24,6 @@ public class JsoupCrawling {
 		//select를 이용하여 원하는 태그를 선택한다. select는 원하는 값을 가져오기 위한 중요한 기능이다.
 		Elements element = doc.select("td.goodsTxtInfo");    
 
-		
-
 		//Iterator을 사용하여 하나씩 값 가져오기
 		Iterator<Element> ie1 = element.iterator();
 		
@@ -40,11 +38,7 @@ public class JsoupCrawling {
 			String subName = doc2.selectFirst(".gd_nameE") != null ? doc2.selectFirst(".gd_nameE").text() : ""; 
 			String author = doc2.selectFirst(".gd_auth").text();
 			String pub = doc2.selectFirst(".gd_pub").text(); 
-//			int price = Integer.parseInt(doc2.selectFirst(".gd_infoTbArea").attr("name", "Goods_Price").text());
-			String price = doc2.selectFirst(".gd_infoTbArea").attr("name", "Goods_Price").text();
-			
-			System.out.println(doc2.selectFirst(".tb_nor").text());
-			
+			int price = (int) Double.parseDouble(doc2.select("input[name=Goods_Price]").first().attr("value"));
 			
 			List<String> item_d = doc2.selectFirst(".tb_nor").select(".lastCol").eachText();
 			String p_date = item_d.get(0);
@@ -60,7 +54,9 @@ public class JsoupCrawling {
 			String authorId = ar[ar.length-1];
 			//int authorId = Integer.parseInt(ar[ar.length-1]);
 			
-			TempBookDTO dto = new TempBookDTO(name, subName, author, pub, price, p_date, detail, isbn13, isbn10, info, index, contentImg, authorId, "");
+			String mainImg = doc2.selectFirst("em.imgBdr").selectFirst("img").attr("src");
+			
+			TempBookDTO dto = new TempBookDTO(name, subName, author, pub, price, p_date, detail, isbn13, isbn10, info, index, contentImg, authorId, mainImg);
 			System.out.println(dto);
 			
 			System.out.println("============================================================");
