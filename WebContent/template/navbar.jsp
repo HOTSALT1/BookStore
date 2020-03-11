@@ -6,12 +6,13 @@
         <div class="nav-headerCon">
             <div class="headerrow">
                 <ul class="nav-headerMenu">
-                    <li><a href="#">로그인</a></li>
-                    <li><a href="#">회원가입</a></li>
+                    <li><a href="../member/loginForm.jsp">로그인</a></li>
+                    <li><a href="../member/memberWriteForm.jsp">회원가입</a></li>
                     <li><a href="#">장바구니</a></li>
                     <li><a href="#">고객센터</a></li>
                 </ul>
             </div>
+            
         </div>
     </div>
     <!--중간  -->
@@ -20,7 +21,7 @@
    			<div style="width:30%; float: left;"><img style="width: 210px; " src="../img/logo.png"></div>
    			<div style="width:40%; float: left; margin-top:6px;" ><input type="text" style="width: 480px; padding: 5px;"></div>
    			<div style="width:30%; text-align: right;"><img style="width: 210px; " src="../img/logo.png"></div>
-         </div>
+         </div> 
     </div>
     <!--아래  -->
     
@@ -28,7 +29,7 @@
         <div class="nav-bottomCon">
             <div style="text-align: left; ">
                 <ul>
-                    <li><a href="#" style="padding-right:15px;">☰</a>
+                    <li><a href="#" style="padding-right:15px;">카테고리</a>
                     	<ul>
                     		<li><a href="#">소설</a></li></br>
                     		<li><a href="#">문학</a></li></br>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <link href=	"https://fonts.googleapis.com/css?family=Jua|Nanum+Gothic|Yeon+Sung&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/order.css" />
+<link rel="stylesheet" href="../css/writeJoin.css" />
 <meta charset="EUC-KR">
 <style type="text/css">
 .radioBtn{
