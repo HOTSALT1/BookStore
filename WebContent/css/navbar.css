@@ -12,6 +12,7 @@
         width: 1200px;
         text-align: right;
     }
+    .nav-headerMenu{margin: 0 auto;}
     .nav-headerMenu>li{
         display: inline-block;
         margin: 0 auto;
@@ -81,9 +82,14 @@ display:inline-block;   /* 마우스 커서 올리면 서브메뉴 보이게 하
 }
    
 /*미디어쿼리*/
-    @media(max-width:1300px){
-        .nav-bottomCon{width: 100%;}/*1300px이되면 width값을 100%해라*/
+/*     @media(max-width:1300px){
+        .nav-bottomCon{width: 100%;}1300px이되면 width값을 100%해라
         .headerrow{padding: 0 15px;}
-        .nav-bottomCon{width:100%}
         
-    }
+        
+    }@media(max-width:1300px){
+        .nav-bottomCon{width: 100%;}1300px이되면 width값을 100%해라
+        .headerrow{padding: 0 15px;}
+        
+        
+    } */

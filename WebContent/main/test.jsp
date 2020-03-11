@@ -12,6 +12,7 @@
 <div style="width: 150px; height: 150px; background-color:blue; "></div>
 <div style="width: 100px; height: 100px; background-color:green; "></div>
 </div>
-
+<input type="button" value="보내기">
+<button>보내기</button>
 </body>
 </html>
